@@ -47,6 +47,7 @@ def kesha_maker(array)
   new_array = []
   array.each do |name|
     kesha = name.split("")
+    kesha.delete_at()
     kesha.insert(2,"$")
   end
 end
