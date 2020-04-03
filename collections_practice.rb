@@ -70,6 +70,6 @@ end
 # add s
 def add_s(array)
   array.each_with_index.collect do |elm, idx|
-    idx != 1 ? elm << "s": elm
+    idx != 1 ? elm << "s" : elm
   end
 end
