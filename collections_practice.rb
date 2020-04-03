@@ -49,7 +49,7 @@ def kesha_maker(array)
     kesha = name.split("")
     kesha.delete_at(2)
     kesha.insert(2,"$")
-    kesha.join
+    kesha = kesha.join
     new_array << kesha
   end
   new_array
