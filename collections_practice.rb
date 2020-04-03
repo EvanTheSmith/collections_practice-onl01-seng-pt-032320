@@ -50,5 +50,7 @@ def kesha_maker(array)
     kesha.delete_at(2)
     kesha.insert(2,"$")
     kesha.join
+    new_array << kesha
   end
+  new_array
 end
