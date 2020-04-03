@@ -73,7 +73,7 @@ def add_s(array)
     if idx != 1
       elm << "s"
     else
-      "feet"
+      elm
     end
   end
 end
